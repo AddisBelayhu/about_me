@@ -11,7 +11,22 @@
 }
 
 body {
-    
+    height: 100vh;
+    place-items: center;
+    background: rgb(88, 197, 233);
+    display: grid;
+}
+
+.container {
+    width: 320px;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    background: rgba(71, 66, 154, 0.9);
+    box-shadow: 1px 1px 1px #fff;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .photo img {
@@ -23,3 +38,51 @@ body {
     border: 1px solid #fff;
     box-shadow: 1px 1px 3px #ffffff;
 }
+
+h3,p {
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+
+.rating {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.buttons button {
+    background-color: rgb(91, 91, 227);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.icons {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 2px;    
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 37px;
+    padding-right: 20px;
+    font-size: 20px;
+   
+}
+
