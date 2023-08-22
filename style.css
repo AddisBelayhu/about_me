@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'iran_yekan';
+    src: url(iran_yekan.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    
+}
+
+.photo img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 3px #ffffff;
+}
