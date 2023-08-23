@@ -13,7 +13,7 @@
 body {
     height: 100vh;
     place-items: center;
-    background: rgb(88, 197, 233);
+    background: rgb(78, 154, 180);
     display: grid;
 }
 
@@ -82,7 +82,6 @@ h3,p {
     font-weight: 400;
     padding-top: 37px;
     padding-right: 20px;
-    font-size: 20px;
-   
+    font-size: 20px;   
 }
 
